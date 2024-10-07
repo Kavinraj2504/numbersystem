@@ -1,0 +1,16 @@
+arr=[3,5,7,11,13,17,19]
+minimum=arr[0]
+maximum=arr[0]
+sum=0
+for(i=0;i<arr.length;i++){
+    if(minimum>arr[i]){
+        minimum=arr[i]
+    }
+    if(maximum<arr[i]){
+        maximum=arr[i]
+    }
+    sum+=arr[i]
+}
+console.log('maximum:'+maximum)
+console.log('minimum:'+minimum)
+console.log("sum:"+sum)
